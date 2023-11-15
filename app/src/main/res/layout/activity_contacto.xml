@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondogeneral"
+    tools:context=".contacto">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="107dp"
+        android:fontFamily="@font/letralogo"
+        android:text="Contacto con el desarrollador"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="186dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="50dp"
+        android:fontFamily="@font/letralogo"
+        android:text="+52 271 108 1148"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="228dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/letralogo"
+        android:text="equipoaxolotec@gmail.com"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="113dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="123dp"
+        android:fontFamily="@font/letralogo"
+        android:text="Axolo Tec"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="280dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:srcCompat="@drawable/logoempresa" />
+
+    <ImageButton
+        android:id="@+id/imageButton19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="146dp"
+        android:backgroundTint="#00673AB7"
+        android:onClick="inicio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView23"
+        app:srcCompat="@drawable/irinicio" />
+
+    <ImageButton
+        android:id="@+id/imageButton25"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="33dp"
+        android:backgroundTint="#00734040"
+        android:onClick="llamar"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton24"
+        app:srcCompat="@drawable/llamada" />
+
+    <ImageButton
+        android:id="@+id/imageButton21"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#00734040"
+        android:onClick="facebook"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/facebook" />
+
+    <ImageButton
+        android:id="@+id/imageButton24"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="33dp"
+        android:backgroundTint="#00734040"
+        android:onClick="gmail"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton21"
+        app:srcCompat="@drawable/gmail" />
+
+    <Button
+        android:id="@+id/pool"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="228dp"
+        android:backgroundTint="#9A76DA"
+        android:fontFamily="@font/letralogo"
+        android:onClick="AudioMediaPlayer"
+        android:text="@string/btn_audio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton25" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

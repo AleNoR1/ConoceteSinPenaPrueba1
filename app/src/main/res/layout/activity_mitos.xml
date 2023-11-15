@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/b2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondogeneral"
+    tools:context=".mitos">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageButton34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#004E2424"
+                android:onClick="volver"
+                app:srcCompat="@drawable/btnretorno" />
+
+            <TextView
+                android:id="@+id/textView184"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/letralogo"
+                android:text="MITOS"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="48sp" />
+
+            <TextView
+                android:id="@+id/textView182"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:fontFamily="@font/letralogo"
+                android:text="@string/txt1mitos"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView183"
+                android:layout_width="match_parent"
+                android:layout_height="69dp"
+                android:fontFamily="@font/letralogo"
+                android:text="@string/txt2mitos"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="#9C27B0"
+                android:fontFamily="@font/letralogo"
+                android:onClick="seleccion"
+                android:text="@string/b1"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/b2m"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="#673AB7"
+                android:fontFamily="@font/letralogo"
+                android:onClick="seleccion"
+                android:text="@string/b2"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="#E91E63"
+                android:fontFamily="@font/letralogo"
+                android:onClick="seleccion"
+                android:text="@string/b3"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="#9C27B0"
+                android:fontFamily="@font/letralogo"
+                android:onClick="seleccion"
+                android:text="@string/b4"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="#673AB7"
+                android:fontFamily="@font/letralogo"
+                android:onClick="seleccion"
+                android:text="@string/b5"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/b6"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="#E91E63"
+                android:fontFamily="@font/letralogo"
+                android:onClick="seleccion"
+                android:text="@string/b6"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/b7"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="#9C27B0"
+                android:fontFamily="@font/letralogo"
+                android:onClick="seleccion"
+                android:text="@string/b7"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/b8"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="#673AB7"
+                android:fontFamily="@font/letralogo"
+                android:onClick="seleccion"
+                android:text="@string/b8"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/b9"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="#E91E63"
+                android:fontFamily="@font/letralogo"
+                android:onClick="seleccion"
+                android:text="@string/b9"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/b10"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:backgroundTint="#9C27B0"
+                android:fontFamily="@font/letralogo"
+                android:onClick="seleccion"
+                android:text="@string/b10"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

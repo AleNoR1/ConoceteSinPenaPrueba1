@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondogeneral"
+    tools:context=".formularioRegistro">
+
+    <LinearLayout
+        android:layout_width="327dp"
+        android:layout_height="647dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="70dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="292dp"
+            android:layout_height="75dp"
+            android:fontFamily="@font/letralogo"
+            android:gravity="center"
+            android:text="Formulario"
+            android:textColor="#000000"
+            android:textSize="34sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/letralogo"
+                android:gravity="top"
+                android:text="@string/correo"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/usuarioRegistro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#673AB7"
+                android:ems="10"
+                android:fontFamily="@font/letralogo"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/letralogo"
+                android:text="Contraseña"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/passwordRegistro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#673AB7"
+                android:ems="10"
+                android:fontFamily="@font/letralogo"
+                android:inputType="textPassword"
+                android:maxLength="8"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/letralogo"
+            android:gravity="center"
+            android:text="CURP"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/curp"
+                android:layout_width="17dp"
+                android:layout_height="39dp"
+                android:backgroundTint="#673AB7"
+                android:ems="10"
+                android:fontFamily="@font/letralogo"
+                android:inputType="textPersonName"
+                android:maxLength="1"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/passwordRegistro" />
+
+            <EditText
+                android:id="@+id/curp1"
+                android:layout_width="17dp"
+                android:layout_height="39dp"
+                android:backgroundTint="#673AB7"
+                android:ems="10"
+                android:fontFamily="@font/letralogo"
+                android:inputType="textPersonName"
+                android:maxLength="1"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                app:layout_constraintTop_toBottomOf="@+id/passwordRegistro"
+                tools:layout_editor_absoluteX="79dp" />
+
+            <EditText
+                android:id="@+id/curp2"
+                android:layout_width="17dp"
+                android:layout_height="39dp"
+                android:backgroundTint="#673AB7"
+                android:ems="10"
+                android:fontFamily="@font/letralogo"
+                android:inputType="textPersonName"
+                android:maxLength="1"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                app:layout_constraintTop_toBottomOf="@+id/passwordRegistro"
+                tools:layout_editor_absoluteX="94dp" />
+
+            <EditText
+                android:id="@+id/curp3"
+                android:layout_width="17dp"
+                android:layout_height="39dp"
+                android:backgroundTint="#673AB7"
+                android:ems="10"
+                android:fontFamily="@font/letralogo"
+                android:inputType="textPersonName"
+                android:maxLength="1"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                app:layout_constraintTop_toBottomOf="@+id/passwordRegistro"
+                tools:layout_editor_absoluteX="109dp" />
+
+            <EditText
+                android:id="@+id/curp4"
+                android:layout_width="17dp"
+                android:layout_height="39dp"
+                android:backgroundTint="#673AB7"
+                android:ems="10"
+                android:fontFamily="@font/letralogo"
+                android:inputType="number|textPersonName"
+                android:maxLength="1"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                app:layout_constraintTop_toBottomOf="@+id/passwordRegistro"
+                tools:layout_editor_absoluteX="124dp" />
+
+            <EditText
+                android:id="@+id/curp5"
+                android:layout_width="17dp"
+                android:layout_height="39dp"
+                android:backgroundTint="#673AB7"
+                android:ems="10"
+                android:fontFamily="@font/letralogo"
+                android:inputType="number|textPersonName"
+                android:maxLength="1"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                app:layout_constraintTop_toBottomOf="@+id/passwordRegistro"
+                tools:layout_editor_absoluteX="139dp" />
+
+            <EditText
+                android:id="@+id/curp6"
+                android:layout_width="17dp"
+                android:layout_height="39dp"
+                android:backgroundTint="#673AB7"
+                android:ems="10"
+                android:fontFamily="@font/letralogo"
+                android:inputType="number|textPersonName"
+                android:maxLength="1"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                app:layout_constraintTop_toBottomOf="@+id/passwordRegistro"
+                tools:layout_editor_absoluteX="154dp" />
+
+            <EditText
+                android:id="@+id/curp7"
+                android:layout_width="17dp"
+                android:layout_height="39dp"
+                android:backgroundTint="#673AB7"
+                android:ems="10"
+                android:fontFamily="@font/letralogo"
+                android:inputType="number|textPersonName"
+                android:maxLength="1"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                app:layout_constraintTop_toBottomOf="@+id/passwordRegistro"
+                tools:layout_editor_absoluteX="169dp" />
+
+            <EditText
+                android:id="@+id/curp8"
+                android:layout_width="17dp"
+                android:layout_height="39dp"
+                android:backgroundTint="#673AB7"
+                android:ems="10"
+                android:fontFamily="@font/letralogo"
+                android:inputType="number|textPersonName"
+                android:maxLength="1"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                app:layout_constraintTop_toBottomOf="@+id/passwordRegistro"
+                tools:layout_editor_absoluteX="184dp" />
+
+            <EditText
+                android:id="@+id/curp9"
+                android:layout_width="17dp"
+                android:layout_height="39dp"
+                android:backgroundTint="#673AB7"
+                android:ems="10"
+                android:fontFamily="@font/letralogo"
+                android:inputType="number|textPersonName"
+                android:maxLength="1"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                app:layout_constraintTop_toBottomOf="@+id/passwordRegistro"
+                tools:layout_editor_absoluteX="199dp" />
+
+            <EditText
+                android:id="@+id/curp10"
+                android:layout_width="17dp"
+                android:layout_height="39dp"
+                android:backgroundTint="#673AB7"
+                android:ems="10"
+                android:fontFamily="@font/letralogo"
+                android:inputType="textPersonName"
+                android:maxLength="1"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                app:layout_constraintTop_toBottomOf="@+id/passwordRegistro"
+                tools:layout_editor_absoluteX="214dp" />
+
+            <EditText
+                android:id="@+id/curp11"
+                android:layout_width="17dp"
+                android:layout_height="39dp"
+                android:backgroundTint="#673AB7"
+                android:ems="10"
+                android:fontFamily="@font/letralogo"
+                android:inputType="textPersonName"
+                android:maxLength="1"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                app:layout_constraintTop_toBottomOf="@+id/passwordRegistro"
+                tools:layout_editor_absoluteX="229dp" />
+
+            <EditText
+                android:id="@+id/curp12"
+                android:layout_width="17dp"
+                android:layout_height="39dp"
+                android:backgroundTint="#673AB7"
+                android:ems="10"
+                android:fontFamily="@font/letralogo"
+                android:inputType="textPersonName"
+                android:maxLength="1"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                app:layout_constraintTop_toBottomOf="@+id/passwordRegistro"
+                tools:layout_editor_absoluteX="244dp" />
+
+            <EditText
+                android:id="@+id/curp13"
+                android:layout_width="17dp"
+                android:layout_height="39dp"
+                android:backgroundTint="#673AB7"
+                android:ems="10"
+                android:fontFamily="@font/letralogo"
+                android:inputType="textPersonName"
+                android:maxLength="1"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                app:layout_constraintTop_toBottomOf="@+id/passwordRegistro"
+                tools:layout_editor_absoluteX="259dp" />
+
+            <EditText
+                android:id="@+id/curp14"
+                android:layout_width="17dp"
+                android:layout_height="39dp"
+                android:backgroundTint="#673AB7"
+                android:ems="10"
+                android:fontFamily="@font/letralogo"
+                android:inputType="textPersonName"
+                android:maxLength="1"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                app:layout_constraintTop_toBottomOf="@+id/passwordRegistro"
+                tools:layout_editor_absoluteX="274dp" />
+
+            <EditText
+                android:id="@+id/curp15"
+                android:layout_width="17dp"
+                android:layout_height="39dp"
+                android:backgroundTint="#673AB7"
+                android:ems="10"
+                android:fontFamily="@font/letralogo"
+                android:inputType="textPersonName"
+                android:maxLength="1"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                app:layout_constraintTop_toBottomOf="@+id/passwordRegistro"
+                tools:layout_editor_absoluteX="289dp" />
+
+            <EditText
+                android:id="@+id/curp16"
+                android:layout_width="17dp"
+                android:layout_height="39dp"
+                android:backgroundTint="#673AB7"
+                android:ems="10"
+                android:fontFamily="@font/letralogo"
+                android:inputType="number|textPersonName"
+                android:maxLength="1"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                app:layout_constraintTop_toBottomOf="@+id/passwordRegistro"
+                tools:layout_editor_absoluteX="304dp" />
+
+            <EditText
+                android:id="@+id/curp17"
+                android:layout_width="17dp"
+                android:layout_height="39dp"
+                android:backgroundTint="#673AB7"
+                android:ems="10"
+                android:fontFamily="@font/letralogo"
+                android:inputType="number|textPersonName"
+                android:maxLength="1"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/passwordRegistro" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E91E63"
+            android:fontFamily="@font/letralogo"
+            android:onClick="validarEdad"
+            android:text="@string/btn_curp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/letralogo"
+            android:gravity="center"
+            android:text="Género"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chipGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:addStatesFromChildren="false"
+            android:animateLayoutChanges="false"
+            android:visibility="visible"
+            app:singleSelection="true"
+            tools:visibility="visible">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkable="true"
+                android:textColor="#000000"
+                android:visibility="visible"
+                app:checkedIconEnabled="true"
+                app:chipBackgroundColor="#8BE91E63"
+                tools:text="F"
+                tools:visibility="visible" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkable="true"
+                android:textColor="#000000"
+                app:chipBackgroundColor="#972196F3"
+                tools:text="M" />
+
+        </com.google.android.material.chip.ChipGroup>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="137dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/letralogo"
+            android:gravity="center"
+            android:text="Elige un avatar"
+            android:textColor="#000000" />
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chipGroup2"
+            android:layout_width="163dp"
+            android:layout_height="104dp"
+            android:layout_gravity="center"
+            app:singleSelection="true">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkable="true"
+                android:textColor="#009F3E3E"
+                app:chipIcon="@drawable/nina2"
+                app:chipIconSize="@android:dimen/app_icon_size" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkable="true"
+                app:chipIcon="@drawable/nina3"
+                app:chipIconSize="@android:dimen/app_icon_size" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkable="true"
+                app:chipIcon="@drawable/nino2"
+                app:chipIconSize="@android:dimen/app_icon_size" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkable="true"
+                app:chipIcon="@drawable/nino1"
+                app:chipIconSize="@android:dimen/app_icon_size" />
+        </com.google.android.material.chip.ChipGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/letralogo"
+                android:text="Aceptó los términos y condiciones"
+                android:textColor="#000000"
+                tools:text="Aceptó los términos y condiciones" />
+
+            <ImageButton
+                android:id="@+id/imageButton36"
+                android:layout_width="81dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00E91E63"
+                android:onClick="terminos"
+                android:tint="#270A5A"
+                app:srcCompat="@android:drawable/ic_menu_view" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="261dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/letralogo"
+            android:onClick="registrarUsuario"
+            android:text="@string/btn_registrar" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

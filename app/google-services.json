@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "922791157830",
+    "project_id": "conocetesinpenaprueba1",
+    "storage_bucket": "conocetesinpenaprueba1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922791157830:android:b791c2c1cab920141aea47",
+        "android_client_info": {
+          "package_name": "com.example.conocetesinpenaprueba1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922791157830-n77l7alruqb1769ulo5l1kehl2pspe8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA0iAq6UkM2Rz81bdwidBAWSbWw5hu7LY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922791157830-n77l7alruqb1769ulo5l1kehl2pspe8b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

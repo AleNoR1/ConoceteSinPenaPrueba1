@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondogeneral"
+    tools:context=".anatomiHombre">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="89dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#002196F3"
+                android:onClick="inicio"
+                app:srcCompat="@drawable/btnretorno" />
+
+            <TextView
+                android:id="@+id/tituloanH"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/letralogo"
+                android:text="@string/antH_parrafo1"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="48sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="243sp"
+                app:srcCompat="@drawable/nino2" />
+
+            <TextView
+                android:id="@+id/parrafo1H"
+                android:layout_width="match_parent"
+                android:layout_height="81dp"
+                android:fontFamily="@font/letralogo"
+                android:text="@string/antH_parrafo2"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:fontFamily="@font/letralogo"
+                android:text="@string/antH_parrafo3"
+                android:textColor="#0f26a6"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="243sp"
+                app:srcCompat="@drawable/anatomia_hombre" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="296dp"
+                android:fontFamily="@font/letralogo"
+                android:text="@string/antH_parrafo4"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:fontFamily="@font/letralogo"
+                android:text="@string/antH_parrafo5"
+                android:textColor="#0f26a6"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="368dp"
+                android:fontFamily="@font/letralogo"
+                android:text="@string/antH_parrafo6"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

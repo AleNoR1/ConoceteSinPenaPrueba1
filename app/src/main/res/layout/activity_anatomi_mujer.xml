@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondogeneral"
+    tools:context=".anatomiMujer">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageButton18"
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00451818"
+                android:onClick="inicio"
+                app:srcCompat="@drawable/btnretorno" />
+
+            <TextView
+                android:id="@+id/tituloAnMujer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/letralogo"
+                android:lineSpacingExtra="8sp"
+                android:text="@string/antM_parrafo1"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="48sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="243dp"
+                app:srcCompat="@drawable/nina3" />
+
+            <TextView
+                android:id="@+id/parrafo1"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:fontFamily="@font/letralogo"
+                android:text="@string/antM_parrafo2"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/sub1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/letralogo"
+                android:text="@string/antM_parrafo3"
+                android:textColor="#0F26A6"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="232dp"
+                app:srcCompat="@drawable/anatomia_mujer" />
+
+            <TextView
+                android:id="@+id/parrafo2"
+                android:layout_width="match_parent"
+                android:layout_height="112dp"
+                android:fontFamily="@font/letralogo"
+                android:text="@string/antM_parrafo5"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="243sp"
+                app:srcCompat="@drawable/anatomia_mujer2" />
+
+            <TextView
+                android:id="@+id/parrafo3"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:fontFamily="@font/letralogo"
+                android:text="@string/antM_parrafo5"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/sub2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/letralogo"
+                android:text="@string/antM_parrafo6"
+                android:textColor="#0F26A6"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="243sp"
+                app:srcCompat="@drawable/org_int" />
+
+            <TextView
+                android:id="@+id/parrafo4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/letralogo"
+                android:text="@string/antM_parrafo8"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="243sp"
+                app:srcCompat="@drawable/org_int01" />
+
+            <TextView
+                android:id="@+id/parrafo5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/letralogo"
+                android:text="@string/antM_parrafo9"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="243sp"
+                app:srcCompat="@drawable/org_int1" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

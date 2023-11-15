@@ -1,0 +1,242 @@
+<resources>
+    <string name="app_name">ConoceteSinPenaPrueba1</string>
+    <string name="btn_inicio">INGRESAR</string>
+    <string name="btn_registro">CREAR UNA CUENTA</string>
+    <string name="btn_registrar">GENERAR CUENTA</string>
+    <string name="btn_anatomia">ANATOMÍA BÁSICA</string>
+    <string name="btn_sexualidad">SEXUALIDAD</string>
+    <string name="btn_tabus">TABÚS Y MITOS</string>
+    <string name="btn_contacto">Contacto con el desarrollador</string>
+    <string name="btn_salir">Volver</string>
+    <string name="ingresa_tus_datos_para_iniciar_sesi_n">Ingresa tus datos para iniciar sesión</string>
+    <string name="usuario">Usuario</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="leyenda1">Aún no tienes cuenta, da click en el siguiente botón</string>
+    <string name="btn_audio">Comercial</string>
+    <string name="ins1">Toca la imagen de cada método anticonceptivo para ver una breve descripción</string>
+    <string name="ins2">Desliza hacia abajo para conocer otros métodos</string>
+
+    <!-- COMIENZA INFORMACION CORRESPONDIENTE A LAS INTERFACES DE ANATOMIA DE MUJER -->
+    <string name="antM_parrafo1">Anatomía Mujer</string>
+    <string name="antM_parrafo2">Las mujeres tienen algunos órganos sexuales que se ven a simple vista (externos) y otros que están dentro del cuerpo (internos).</string>
+    <string name="antM_parrafo3">Órganos genitales externos</string>
+    <string name="antM_parrafo4">Entre las piernas y por debajo del pubis (donde está el vello) se encuentra la vulva. La vulva está formada por dos pares de repliegues o labios: los más grandes y más externos son los labios mayores. Por debajo de estos labios mayores se encuentran los labios menores. En el punto en donde se unen los labios menores está el clítoris, un pequeño órgano muy sensible, importante en la generación del orgasmo (momento de máximo placer sexual) femenino. También en la vulva se encuentra el orificio de la uretra, por donde sale la orina, ubicado entre el clítoris y la vagina.</string>
+    <string name="antM_parrafo5">Los senos, de distinta forma y tamaño en cada mujer, presentan en su zona central un círculo más oscuro formado por la areola y el pezón. En el interior hay glándulas productoras de leche y tejido graso.</string>
+    <string name="antM_parrafo6">Órganos genitales internos</string>
+    <string name="antM_parrafo7">Por debajo de los labios menores se encuentra la entrada de la vagina. El himen es una membrana con un pequeño orificio, que cubre parcialmente la entrada de la vagina. En algunas mujeres puede sangrar durante la primera penetración vaginal. La vagina es un canal muy elástico, se agranda en el parto, y durante la penetración sexual se adapta al tamaño del pene. Se comunica internamente con el útero o matriz, que es el lugar donde se anida el feto en el embarazo. </string>
+    <string name="antM_parrafo8">El útero es un órgano formado por músculos, del tamaño y la forma de una pera invertida. La parte más estrecha del útero recibe el nombre de cuello del útero, presenta un orificio pequeño que lo comunica con la vagina. Por allí sale la menstruación, es el canal por donde ascienden los espermatozoides y por donde pasa el bebé en el momento del parto.</string>
+    <string name="antM_parrafo9">Del fondo del útero salen dos canales, las trompas de Falopio, que terminan en un extremo ensanchado junto a cada ovario. En los ovarios maduran los óvulos y se producen, además, hormonas femeninas. Los óvulos son las células femeninas para la reproducción. Si un óvulo es fecundado por una célula masculina puede dar lugar a un embarazo.</string>
+
+    <!-- COMIENZA INFORMACION CORRESPONDIENTE A LAS INTERFACES DE ANATOMIA DE HOMBRE -->
+    <string name="antH_parrafo1">Anatomía hombre</string>
+    <string name="antH_parrafo2">El varón también tiene órganos sexuales que se ven a simple vista (externos) y otros que están dentro de su cuerpo (internos).</string>
+    <string name="antH_parrafo3">Órganos genitales externos</string>
+    <string name="antH_parrafo4">Estos órganos son el pene y el escroto. El pene es un órgano cuyo tamaño puede variar de un varón a otro sin que ello indique diferencias en la virilidad o en la potencia sexual. Está cubierto por una piel delgada que en la punta forma un pliegue (prepucio). La parte más sensible de este órgano es la cabeza o punta (glande), donde se encuentra un orificio a través del cual salen la orina y el semen, pero nunca al mismo tiempo. El semen o esperma es el líquido que sale del pene en el momento de la eyaculación y transporta los espermatozoides. El escroto es una bolsa doble, rugosa, ubicada debajo del pene, que contiene los testículos. </string>
+    <string name="antH_parrafo5">Órganos genitales internos</string>
+    <string name="antH_parrafo6">Los testículos son dos glándulas del tamaño de una nuez y en ellos se producen los espermatozoides (células reproductoras del varón) y la hormona masculina llamada testosterona. Los espermatozoides salen de los testículos por unos conductos -los canales deferentes- y quedan depositados en las vesículas seminales. Las vesículas seminales fabrican el semen, una sustancia blanca y viscosa, que mantiene vivos a los espermatozoides. Cerca de las vesículas seminales y justo por debajo de la vejiga, está la próstata. Esta glándula segrega sustancias que contribuyen a mantener la vitalidad de los espermatozoides. Cuando el varón se excita, su pene se yergue y se endurece. La salida del semen, llamada eyaculación, coincide generalmente con el orgasmo masculino.</string>
+    <string name="enfInt_parrafo1">Enfermedades de transmisión sexual ETS</string>
+    <string name="enfInt_parrafo2">Las causas de las ETS pueden ser bacterias, virus y parásitos.</string>
+    <string name="enfInt_parrafo3">La gravedad de estas enfermedades puede ser leve, grave e incluso mortal. Sin embargo, hay que tener en cuenta que, pese a que una de las más famosas sea el SIDA, la mayoría de estas enfermedades son curables si se realiza un diagnóstico correcto.</string>
+    <string name="enfInt_parrafo4">No hay nada como disfrutar del sexo sin tener que preocuparte por las enfermedades de transmisión sexual (ETS) o los embarazos. Usar condones, hablar abiertamente con tu pareja y hacerte exámenes regularmente es la manera de lograrlo.</string>
+    <string name="enfInt_parrafo5"></string>
+
+    <!-- COMIENZA INFORMACION CORRESPONDIENTE A LAS Infecciones ETS -->
+    <string name="enf_p1">Enfermedades de transmisión sexual ETS</string>
+    <string name="enf_p2">Las causas de las ETS pueden ser bacterias, virus y parásitos.</string>
+    <string name="enf_p3">La gravedad de estas enfermedades puede ser leve, grave e incluso mortal. Sin embargo, hay que tener en cuenta que, pese a que una de las más famosas sea el SIDA, la mayoría de estas enfermedades son curables si se realiza un diagnóstico correcto.</string>
+    <string name="enf_p4">No hay nada como disfrutar del sexo sin tener que preocuparte por las enfermedades de transmisión sexual (ETS) o los embarazos. Usar condones, hablar abiertamente con tu pareja y hacerte exámenes regularmente es la manera de lograrlo.</string>
+
+    <!-- BOTONES CON LAS ETS ***INTERFACES DE Enfermedades -->
+    <string name="clamidia">CLAMIDIA</string> <!-- 1 -->
+    <string name="verrugas">VERRUGAS VENITALES</string> <!-- 2 -->
+    <string name="gonorrea">GONORREA</string> <!-- 3 -->
+    <string name="hepatitis">HEPATITIS B</string> <!-- 4 -->
+    <string name="herpes">HERPES GENITAL Y ORAL</string> <!-- 5 -->
+    <string name="vih">VIH Y SIDA</string> <!-- 6 -->
+    <string name="papiloma">PAPILOMA HUMANO</string> <!-- 7 -->
+    <string name="molusco">MOLUSCO CONTAGIOSO</string> <!-- 8 -->
+    <string name="piojo">PIOJOS O LADILLAS</string> <!-- 9 -->
+    <string name="sarna">ESCABIOSIS</string> <!-- 10 -->
+    <string name="sifilis">SÍFILIS</string> <!-- 11 -->
+    <string name="tricomoniasis">TRICOMONIASIS</string> <!-- 12 -->
+
+    <!-- INTERFAZ DE CLAMIDIA -->
+    <string name="clm_p1">¿Qué es la clamidia?</string>
+    <string name="clm_p2">La infección por clamidia es una infección bacteriana MUY común que se puede contraer por el contacto sexual con otra persona.</string>
+    <string name="clm_p3">¿Cómo se contagia?</string>
+    <string name="clm_p4">La clamidia se transmite a través del sexo vaginal, anal u oral. La bacteria se encuentra en el esperma (semen), el líquido preeyaculatorio y los fluidos vaginales. La clamidia puede infectar el pene, la vagina, el cuello uterino, el ano, la uretra, los ojos y la garganta o boca.</string>
+    <string name="clm_p5">Síntomas</string>
+    <string name="clm_p6">Las señales de clamidia pueden aparecer tanto en hombres como en mujeres e incluyen:</string>
+    <string name="clm_p7">* Dolor o ardor al orinar</string>
+    <string name="clm_p8">* Dolor durante el sexo</string>
+    <string name="clm_p9">* Dolor en el bajo vientre</string>
+    <string name="clm_p10">* Flujo vaginal anormal (puede ser amarillento y tener un olor fuerte)</string>
+    <string name="clm_p11">* Sangrado entre periodos menstruales</string>
+    <string name="clm_p12">* Pus o fluido lechoso o aguado del pene</string>
+    <string name="clm_p13">* Inflamación o sensibilidad en los testículos</string>
+    <string name="clm_p14">* Dolor, flujo o sangrado alrededor del ano</string>
+    <string name="clm_p15">* Si se infectan los ojos, es posible que los tengas rojos, sientas picazón o fluido o lagañas (moco que aparece en tus ojos). A veces, la clamidia afecta la boca y/o la garganta y provoca dolor de garganta, aunque no es frecuente.</string>
+    <string name="clm_p16">Recuerda que la mayoría de las personas con clamidia no tienen ningún tipo de síntoma. Por este motivo, la única manera de saber con seguridad si tienes infección por clamidia es hacerte un examen de las ETS.</string>
+    <string name="clm_p17">La clamidia se cura fácilmente con antibióticos. Si no se trata, puede causar problemas de salud graves en el futuro. Por este motivo es tan importante hacerse los exámenes de detección de las enfermedades de transmisión sexual (ETS)</string>
+    <string name="clm_p18">La mejor manera de prevenir la clamidia es usar condones o barreras bucales de látex cada vez que tienes relaciones.</string>
+
+    <!-- INTERFAZ DE VERRUGA -->
+    <string name="vr_p1">¿Qué son las verrugas genitales?</string>
+    <string name="vr_p2">Las verrugas genitales suelen aparecer en la piel que rodea tus genitales y ano. Son causadas por ciertos tipos del virus del papiloma humano (VPH).</string>
+    <string name="vr_p3">A veces, ciertos tipos del virus  del papiloma humano de “alto riesgo”, pueden convertirse en cáncer si no se tratan. Otros tipos del virus de “bajo riesgo” pueden causar verrugas en tu vulva, vagina, cuello uterino, recto, ano, pene o escroto.</string>
+    <string name="vr_p4">Las verrugas genitales se contagian por el contacto piel a piel con una persona infectada, a menudo durante el sexo vaginal, anal y oral. Las verrugas genitales pueden transmitirse incluso cuando no hay eyaculación (llegar) y sin que el pene penetre en la vagina o el ano.</string>
+    <string name="vr_p5">Tienes más chances de transmitir verrugas genitales cuando tienes síntomas. Por eso, si notas una verruga, lo mejor es hacerte un examen y recibir tratamiento para ayudar a bajar el riesgo de pasarle las verrugas genitales a tu pareja.</string>
+    <string name="vr_p6">Las verrugas genitales son bultos blancos o de color piel que aparecen en tu vulva, vagina, cuello uterino, tu pene, escroto o ano. Parecen pequeños trozos de coliflor. Puedes tener una o varias verrugas y pueden ser grandes o pequeñas. Pueden causar picazón y la mayoría de las veces no duelen.</string>
+    <string name="vr_p7">No todos los bultos que aparecen en los genitales son verrugas. Hay otras infecciones y condiciones normales de la piel que pueden verse como una verruga, pero son otra cosa.</string>
+
+
+    <!-- INTERFAZ GONORREA -->
+    <string name="gn_p1">¿Qué es la gonorrea?</string>
+    <string name="gn_p2">La gonorrea es una enfermedad de transmisión sexual muy común, que afecta especialmente a adolescentes y personas entre los 20 y 30 años.La gonorrea se transmite a través del sexo vaginal, anal y oral. La bacteria se encuentra en el semen (leche), en el líquido preeyaculatorio y en los fluidos vaginales. La gonorrea puede infectar tu pene, vagina, cuello uterino, ano, uretra, garganta y ojos (aunque esto es poco común).</string>
+    <string name="gn_p3">Las personas se contagian de gonorrea por tener sexo sin protección con alguien que tiene la infección. La gonorrea se transmite (pega) cuando el semen (leche), el líquido preeyaculatorio (líquido que sale antes de eyacular o llegar), y los fluidos vaginales entran en contacto con tus genitales, tu ano o tu boca, o cuando entran en estos. La gonorrea se puede transmitir aún si el pene no entra completamente en la vagina o el ano</string>
+    <string name="gn_p4">La gonorrea se cura fácilmente con antibióticos. Pero si no tratas la infección a tiempo, aparecerán problemas más graves de salud en el futuro. Por eso es tan importante hacerse pruebas de las enfermedades de transmisión sexual (ETS).</string>
+    <string name="gn_p5">La mayoría de las personas con vagina que se contagian de gonorrea no tienen síntomas. Si los tienen, los síntomas de la gonorrea aparecen más o menos una semana después de haberse contagiado de la infección. Estos incluyen:</string>
+    <string name="gn_p6">* Dolor o ardor al orinar</string>
+    <string name="gn_p7">* Flujo vaginal anormal que puede ser amarillento o con sangre</string>
+    <string name="gn_p8">* Sangrado entre periodos</string>
+    <string name="gn_p9">Usualmente, los síntomas aparecen durante la semana después de haberse contagiado. Los síntomas de la gonorrea en las personas con pene incluyen:</string>
+    <string name="gn_p10">* Flujo amarillo, blanco o verde del pene</string>
+    <string name="gn_p11">* Dolor o ardor al orinar</string>
+    <string name="gn_p12">* Dolor o hinchazón en los testículos (huevos)</string>
+    <string name="gn_p13">La gonorrea también puede infectar el ano si tienes sexo anal y también puedes pasarla a tu ano desde otra parte de tu cuerpo. La gonorrea anal suele no tener síntomas. Sin embargo, las señales de la gonorrea en el ano pueden incluir:</string>
+    <string name="gn_p14">* Picazón en, o alrededor del ano</string>
+    <string name="gn_p15">* Flujo del ano</string>
+    <string name="gn_p16">* Dolor al defecar (hacer popó)</string>
+    <string name="gn_p17">Es poco común que las personas con infección de gonorrea en la garganta tengan síntomas. Cuando aparece alguno, usualmente es solo dolor de garganta.</string>
+    <string name="gn_p18"> Usar condones y/o barreras de látex bucales cada vez que tengas sexo, es la mejor manera de prevenir la gonorrea, incluso si tú y tu pareja sexual parecen estar perfectamente bien de salud.</string>
+
+    <!-- INTERFAZ HEPATITIS -->
+    <string name="hp_p1">¿Qué es la hepatitis B?</string>
+    <string name="hp_p2">La hepatitis B es una infección del hígado causada por un virus (llamado virus de la hepatitis B o VHB). Puede ser grave y no tiene cura, pero la buena noticia es que es fácil de prevenir. Puedes protegerte poniéndote la vacuna contra la hepatitis B y teniendo sexo más seguro. Si tienes sexo oral, anal o vaginal, usa condones o barreras bucales de látex  para prevenir la transmisión de la hepatitis B y otras enfermedades de transmisión sexual -ETS-</string>
+    <string name="hp_p3">La hepatitis B es muy contagiosa. Se transmite por tener contacto con el semen (leche), los fluidos vaginales y la sangre. Puedes contagiarte por:</string>
+    <string name="hp_p4">* Tener sexo vaginal, anal u oral (usar condón o barreras bucales de látex durante el sexo ayuda a prevenirla)</string>
+    <string name="hp_p5">* Compartir cepillos de dientes y rasuradoras (la sangre que puede quedar en ellos puede estar infectada)</string>
+    <string name="hp_p6">* Compartir agujas para consumir drogas, para hacerse perforaciones en el cuerpo (piercings) o tatuajes, etc.</string>
+    <string name="hp_p7">* Ser punzado con una aguja con sangre infectada con el virus de la hepatitis B</string>
+    <string name="hp_p8">La hepatitis B generalmente no presenta síntomas.</string>
+    <string name="hp_p9">Cuando las personas tienen síntomas de hepatitis B, las primeras señales suelen aparecer entre las 6 semanas y los 6 meses después del momento de contagiarse con el virus.Estas son las señales y los síntomas de hepatitis B:</string>
+    <string name="hp_p10">* Sentir mucho cansancio</string>
+    <string name="hp_p11">* Dolor en el estómago (panza)</string>
+    <string name="hp_p12">* No tener apetito</string>
+    <string name="hp_p13">* Náuseas y vómitos</string>
+    <string name="hp_p14">* Ictericia (color amarillento en los ojos y la piel)</string>
+
+    <!-- INTERFAZ HERPES-->
+    <string name="he_p1">¿Qué es el herpes genital y el herpes oral?</string>
+    <string name="he_p2">El herpes es causado por dos virus diferentes, pero que se parecen: el herpes simple tipo 1 (VHS-1) y el herpes simple tipo 2 (VHS-2).  Ambos pueden hacer que aparezcan llagas en y alrededor de tu vulva, vagina, cuello uterino, ano, pene, escroto, nalgas, la cara interna de los muslos, tus labios, boca, garganta y, muy pocas veces, en los ojos. El herpes se contagia por el contacto de piel a piel con áreas infectadas. Muchas veces ocurre durante el sexo vaginal, oral, anal y al besarse. El herpes hace que tengas brotes de ampollas o llagas dolorosas que causan picazón y que aparecen y desaparecen. El herpes no tiene cura, pero hay medicamentos (cremas, pomadas, o pastillas) que pueden aliviar tus síntomas y que bajan los chances de contagiar el virus a otras personas. Lo bueno es que los brotes suelen ser menos frecuentes a medida que pasa el tiempo y, aunque en ocasiones el herpes puede ser incómodo y doloroso, no es peligroso.</string>
+    <string name="he_p3">¿Cuál es la diferencia entre el herpes genital y el herpes oral?</string>
+    <string name="he_p4">Cuando el VHS-1 o el VHS-2 infecta tu área genital (vulva, vagina, cuello uterino, ano, pene, escroto o áreas cercanas) se llama herpes genital.</string>
+    <string name="he_p5">Cuando el VHS-1 o el VHS-2 infecta tus labios, tu boca, lengua y garganta o las áreas cercanas, se llama herpes oral (o herpes labial). Las llagas del herpes oral a veces se conocen como úlcera bucal o herpes febril.</string>
+    <string name="he_p6">El herpes genital y oral se contagia fácilmente por el contacto de piel a piel con alguien que tiene el virus. Te puedes contagiar cuando tus genitales y/o tu boca tocan los genitales y/o la boca de una persona con herpes. Normalmente esto ocurre durante el sexo oral, anal o vaginal.</string>
+    <string name="he_p7">El síntoma más común del herpes genital (herpes en el pene, en la vagina o vulva, en el ano o en otras áreas de tus genitales), es tener un grupo de ampollas dolorosas o que dan picazón en tu vagina, vulva, cuello uterino, ano, pene, escroto (la piel que contiene tus testículos), nalgas, ano o la parte interna de tus muslos. Las ampollas se revientan y se convierten en llagas. También puedes tener otros síntomas como:</string>
+    <string name="he_p8">* Ardor al orinar si tu orina (pipí) toca las llagas del herpes</string>
+    <string name="he_p9">* Dificultad para orinar porque las llagas y la hinchazón tapan la uretra</string>
+    <string name="he_p10">* Picazón</string>
+    <string name="he_p11">* Dolor en el área donde están tus genitales</string>
+    <string name="he_p12">Si tu herpes genital es causado por el VHS-2, puede que también tengas síntomas parecidos a los de una gripe, como:</string>
+    <string name="he_p13">* Inflamación de las glándulas del área de la pelvis, la garganta y las axilas</string>
+    <string name="he_p14">* Sensación de dolor y cansancio</string>
+    <string name="he_p15">* Fiebre</string>
+
+    <!-- INTERFAZ VIH -->
+    <string name="vh_p1">¿Qué es el VIH Y el SIDA?</string>
+    <string name="vh_p2">El VIH y el SIDA no son lo mismo.</string>
+    <string name="vh_p3">El VIH es un virus que se transmite de persona a persona. Con el tiempo, el VIH destruye un tipo de células importante del sistema inmunitario (llamadas células CD4 o células T), que es el que nos protege de las infecciones. Cuando no tienes suficientes células CD4, tu cuerpo no puede combatir las infecciones como lo haría normalmente.</string>
+    <string name="vh_p4">El SIDA es la enfermedad causada por el daño que el VIH hace en el sistema inmunitario. Una persona tiene SIDA cuando contrae infecciones peligrosas o tiene un número muy bajo de células CD4. El SIDA es la fase más grave del VIH y con el tiempo, termina provocando la muerte.</string>
+    <string name="vh_p5">Para que alguien con VIH desarrolle el SIDA, generalmente se tarda 10 años si no recibe tratamiento. El tratamiento hace que el daño que causa el virus sea más lento y puede ayudar a que las personas se mantengan sanas durante mucho años.</string>
+    <string name="vh_p6">El VIH se encuentra en el semen (leche), los fluidos vaginales, el moco anal, la sangre y la leche humana. El virus entra a tu cuerpo a través de cortes o heridas en la piel y a través de las membranas mucosas (como el interior de la vagina, el recto y la abertura del pene). Te puedes contagiar del VIH por:</string>
+    <string name="vh_p7">* Tener sexo vaginal o anal</string>
+    <string name="vh_p8">* Compartir agujas o jeringas para inyectarse drogas, hacerse perforaciones en el cuerpo (piercings), tatuajes, etc.</string>
+    <string name="vh_p9">* Que te pinchen con una aguja que tiene sangre infectada con el VIH</string>
+    <string name="vh_p10">* Tener heridas o ampollas abiertas que entren en contacto con sangre, semen (leche) o fluidos vaginales infectados con el VIH</string>
+    <string name="vh_p11">El VIH usualmente se transmite cuando tienes sexo sin protección. Usar condones y/o barreras de látex bucales cada vez que tengas sexo y no compartir agujas, te ayuda a protegerte -y a tus parejas-. Si tienes VIH, recibir tratamiento puede bajar e incluso detener tus chances de contagiar a otras personas con el virus durante el sexo. Si no tienes VIH, también hay un medicamento de uso diario (te lo tomas todos los días) llamado PrEP, que puede protegerte del VIH.</string>
+    <string name="vh_p12">Las primeras 2 a 4 semanas después de contagiarte de VIH, puedes sentir algo de fiebre, dolor y malestar. Estos síntomas -similares a los de la gripe-, son la primera reacción de tu cuerpo a la infección. Los síntomas del SIDA incluyen:</string>
+    <string name="vh_p13">Aftas (una capa espesa y blanca en tu lengua o boca)</string>
+    <string name="vh_p14">* Dolor de garganta</string>
+    <string name="vh_p15">* Infecciones por hongos fuertes</string>
+    <string name="vh_p16">* Enfermedad pélvica inflamatoria crónica</string>
+    <string name="vh_p17">* Tener infecciones fuertes muy seguido</string>
+    <string name="vh_p18">* Sentir mucho cansancio, mareos y aturdimiento</string>
+    <string name="vh_p19">* Dolores de cabeza</string>
+    <string name="vh_p20">* Perder mucho peso rápidamente</string>
+    <string name="vh_p21">* Tener moretones con más facilidad de lo normal para ti</string>
+    <string name="vh_p22">* Diarrea, fiebre o sudores nocturnos durante mucho tiempo</string>
+    <string name="vh_p23">* Glándulas inflamadas o duras en tu garganta, axilas o ingle</string>
+    <string name="vh_p24">* Episodios de tos seca y profunda</string>
+    <string name="vh_p25">* Sensación de falta de aire</string>
+    <string name="vh_p26">* Bultos o manchas color violeta o azul en tu piel o boca</string>
+    <string name="vh_p27">* Sangrado de la boca, la nariz, el ano o la vagina</string>
+    <string name="vh_p29">* Erupciones en la piel</string>
+    <string name="vh_p30">* Sentir las manos o los pies dormidos, perder el control de tus músculos y reflejos, no poder moverte y perder fuerza en tus músculos</string>
+
+    <!-- INTERFAZ PAPILOMA -->
+    <string name="pa_p1">¿Qué es el Papiloma humano?</string>
+    <string name="pa_p2">Hay más de 200 tipos del virus del papiloma humano (también conocido en inglés con las siglas HPV). Alrededor de 40 tipos de este virus pueden infectar tu área genital (tu vulva, vagina, cuello uterino, recto, ano, pene y escroto) así como tu boca y garganta. Estos tipos de papiloma humano se transmiten durante el contacto sexual. Otros tipos del virus del papiloma humano (VPH) causan verrugas comunes, como las verrugas de las manos y las plantas de los pies, pero no se transmiten a través del sexo.</string>
+    <string name="pa_p3">La mayoría de las infecciones genitales con el papiloma humano no hacen daño y desaparecen solas. Sin embargo, algunos tipos del virus pueden causar verrugas genitales o ciertos tipos de cáncer.</string>
+    <string name="pa_p4">Hay dos tipos del virus del papiloma humano (VPH), los tipos 6 y 11, que causan la mayoría de las verrugas genitales. Aunque las verrugas no son agradables, son un tipo de papiloma humano de bajo riesgo, pues no provocan cáncer ni otros problemas de salud graves.</string>
+    <string name="pa_p5">Hay al menos una docena (12) de tipos del VPH que, en ocasiones, pueden provocar cáncer. Sin embargo, hay dos (2) tipos en particular (los tipos 16 y 18) que causan la mayoría de los casos de cáncer. A estos se les conoce como papiloma humano de alto riesgo. El cáncer de cuello uterino usualmente está relacionado con el VPH, pero el papiloma humano también puede causar cáncer en tu vulva, vagina, pene, ano, boca y garganta.</string>
+    <string name="pa_p6">El papiloma humano no tiene cura, pero hay muchas cosas que puedes hacer para evitar que te cause problemas de salud. Hay vacunas que pueden ayudar a protegerte de ciertos tipos de papiloma humano. Tu doctor o enfermera puede quitarte las verrugas genitales. El papiloma humano de alto riesgo usualmente puede tratarse fácilmente antes de que se convierta en cáncer. Por eso es tan importante hacerse la prueba del papiloma humano y el examen de Papanicolaou (también conocido como citología vaginal) regularmente. Aunque el condón y las barreras de látex bucales no protegen de manera perfecta, pueden ayudar a que tengas menos chances de contagiarte del papiloma humano</string>
+    <string name="pa_p7">El papiloma humano se contagia fácilmente por contacto de piel a piel, cuando tienes sexo con una persona que lo tiene. Te contagias cuando tu vulva, vagina, cuello uterino, pene, o ano está en contacto con los genitales o la boca y la garganta de otra persona, normalmente durante el sexo. El papiloma humano puede transmitirse incluso si no hay eyaculación (llegar) y aunque el pene no entre en la vagina, el ano o la boca.</string>
+    <string name="pa_p8">Desafortunadamente, la mayoría de las personas que tienen un tipo de papiloma humano de alto riesgo, no tienen señales de la infección hasta que ya ha causado graves problemas de salud</string>
+    <string name="pa_p9">No hay un examen que detecte los tipos de papiloma humano de alto riesgo en la vulva, el pene, el ano o la garganta. Además, este papiloma humano no tiene síntomas. Sin embargo, si el papiloma humano se convierte en cáncer, entonces pueden aparecer algunos síntomas.</string>
+    <string name="pa_p10">El cáncer de pene, puede causar síntomas como cambios en el color o grosor de la piel de tu pene, o puede que aparezca una llaga dolorosa en tu pene.</string>
+    <string name="pa_p11">El cáncer de ano puede causar sangrado, dolor, picazón o flujo anal, o cambios en la frecuencia o forma de hacer caca.</string>
+    <string name="pa_p12">El cáncer de vulva puede causar síntomas como cambios en el color o grosor de la piel de tu vulva. Puedes tener dolor crónico, picazón o puede aparecer un bulto.</string>
+    <string name="pa_p13">El cáncer de garganta puede causar dolor de garganta, dolor de oído que no se quita, tos constante, dolor o problemas para tragar o respirar, pérdida de peso o una masa o bulto en tu cuello.</string>
+
+    <!-- INTERFAZ MOLUSCO eliminada-->
+
+    <!-- INTERFAZ PIOJOS eliminada -->
+
+    <!-- INTERFAZ ESCABIOSIS eliminada-->
+
+    <!-- INTERFAZ SIFILIS -->
+    <string name="si_p1">¿Qué es la Sífilis?</string>
+    <string name="si_p2">La sífilis es una enfermedad de transmisión sexual (ETS) muy común que se contagia a través del sexo vaginal, anal y oral. La sífilis puede infectar tu vagina, ano, pene o escroto y, en ocasiones, tu boca y labios. Puedes prevenir la sífilis usando condones o barreras de látex bucales cada vez que tengas sexo. Si la tratas temprano, la sífilis se puede curar fácilmente con medicamentos. Sin embargo, cuando la sífilis no se trata puede causar problemas muy graves y permanentes como: daño cerebral, parálisis y ceguera. Por eso es tan importante hacerte los exámenes de las enfermedades de transmisión sexual.</string>
+    <string name="si_p3">La sífilis se contagia por el contacto sexual de piel a piel con alguien que tiene la infección. Te contagias cuando tu vulva, vagina, pene, ano o boca toca las llagas de alguien con sífilis, usualmente durante el sexo.</string>
+    <string name="si_p4">Primera etapa.</string>
+    <string name="si_p5">Los chancros suelen aparecer entre las 3 semanas y los 3 meses después de contagiarte. Las llagas suelen durar entre 3 y 6 semanas y luego desaparecen solas, con o sin tratamiento. Si no recibes tratamiento, seguirás teniendo sífilis aunque ya no tengas llagas. Para curar la sífilis y evitar que avance a la siguiente etapa, tienes que tomar medicamentos. Los chancros pueden aparecer en tu vulva, vagina, ano, pene o escroto y, aunque es poco común, también en tu boca o labios. Las llagas también pueden estar ocultas dentro de tu vagina, debajo de tu prepucio, en tu recto y en otros lugares que son difíciles de notar.</string>
+    <string name="si_p6">Segunda etapa.</string>
+    <string name="si_p7">Los síntomas de la segunda etapa incluyen sarpullido en las palmas de tus manos y en las plantas de tus pies o en otras partes de tu cuerpo. A veces, el sarpullido de la sífilis de la segunda etapa es difícil de ver, y generalmente no causa picazón Los síntomas de la segunda etapa (sarpullido en la piel por sífilis) pueden durar entre 2 y 6 semanas por cada brote, y pueden aparecer y desaparecer hasta por 2 años. Son similares a los de otras enfermedades comunes, por lo que puede ser difícil saber qué se trata de sífilis.</string>
+    <string name="si_p8">Etapa tardía.</string>
+    <string name="si_p9">Las personas que han tenido sífilis por mucho tiempo tienen graves problemas de salud. La sífilis avanzada puede causar tumores, ceguera (pérdida de la visión) y parálisis. Además, puede dañar el sistema nervioso, el cerebro y otros órganos, e incluso puede causar la muerte.</string>
+
+    <!-- INTERFAZ TRICOMONIASIS -->
+    <string name="tr_p1">¿Qué es la tricomoniasis?</string>
+    <string name="tr_p2">Está infección de transmisión sexual (ITS) es causada por un parásito que se transmite muy fácilmente durante el sexo. El parásito se encuentra en los fluidos sexuales, como el esperma (leche), el líquido preeyaculatorio (líquido que sale antes de eyacular o llegar) y los fluidos vaginales.</string>
+    <string name="tr_p3">Las personas se contagian de tricomoniasis por tener sexo sin protección con alguien que tiene la infección. Se transmite cuando el semen (leche), el líquido preeyaculatorio (líquido que sale antes de eyacular o llegar) y los fluidos vaginales entran en contacto con tu pene, tu vulva o tu vagina, o cuando entran en estos. También se transmite por el contacto entre dos vulvas, por compartir juguetes sexuales y por tocar tus genitales o los de tu pareja sexual con fluidos infectados en tu mano.  Usar condones y tener sexo seguro (sexo más seguro) es la mejor manera de prevenir la tricomoniasis, incluso si tú y tu pareja sexual parecen estar perfectamente bien de salud.</string>
+    <string name="tr_p4">Si tienes síntomas de tricomoniasis, estos suelen aparecer entre tres días y un mes después de haberte contagiado.</string>
+    <string name="tr_p5">La tricomoniasis puede causar síntomas en personas de cualquier género. Sin embargo, lo más probable es que cause vaginitis. Los síntomas de la vaginitis causada por tricomoniasis incluyen:</string>
+    <string name="tr_p6">* Flujo vaginal verde, amarillo, gris, espumoso o con mal olor</string>
+    <string name="tr_p7">* Sangre en el flujo vaginal</string>
+    <string name="tr_p8">* Picazón e irritación en la vagina y alrededor de ella</string>
+    <string name="tr_p9">* Hinchazón en el área genital (donde están tus genitales)</string>
+    <string name="tr_p10">* Dolor durante el sexo</string>
+
+    <!-- INTERFAZ *******MITOS*****
+    BOTONES                    -->
+    <string name="txt1mitos">Toca cada botón para desmentir cada mito</string>
+    <string name="txt2mitos">¡Acabemos con la desinformación y tengamos una vida sexual más sana!</string>
+    <string name="b1">"Si uso doble condón hay más protección"</string>
+    <string name="b2">"La pastilla del día después es abortiva"</string>
+    <string name="b3">"Yo hago la marcha atras"</string>
+    <string name="b4">"La primera vez no te embarazas"</string>
+    <string name="b5">"Una ducha vaginal y listo"</string>
+    <string name="b6">"Estoy mestruando"</string>
+    <string name="b7">"Con el condón no se tiene placer"</string>
+    <string name="b8">"Todas las chicas en su primera relación sangran y tienen dolor"</string>
+    <string name="b9">"Cuanto más grande el pene mejor"</string>
+    <string name="b10">"Si te masturbas mucho puedes quedar esteril o imponente"</string>
+
+    <!-- INTERFAZ *******TABUS*****
+    BOTONES                    -->
+    <string name="txt1tabu">Conócete sin pena</string>
+    <string name="txt2tabu">¡Por el momento este espacio se encuentra en construcción! Disculpe las molestias</string>
+    <string name="correo">Correo</string>
+<string name="btn_curp">CONFIRMAR QUE SOY ADOLESCENTE</string>
+</resources>

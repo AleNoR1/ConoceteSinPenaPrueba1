@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondogeneral"
+    tools:context=".anticonceptivos">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageButton31"
+                android:layout_width="99dp"
+                android:layout_height="81dp"
+                android:backgroundTint="#00A65454"
+                android:onClick="inicio"
+                app:srcCompat="@drawable/btnretorno"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:fontFamily="@font/letralogo"
+                android:text="@string/ins1"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/letralogo"
+                android:text="@string/ins2"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/condon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00A85151"
+                android:onClick="seleccion"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/condon"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/condonf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00AA6D6D"
+                android:onClick="seleccion"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/condonf"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/diu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#005A2121"
+                android:onClick="seleccion"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/diu" />
+
+            <ImageButton
+                android:id="@+id/implante"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00954646"
+                android:onClick="seleccion"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/implante" />
+
+            <ImageButton
+                android:id="@+id/inyeccion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00DA7676"
+                android:onClick="seleccion"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/inyeccion" />
+
+            <ImageButton
+                android:id="@+id/ligadura"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00773131"
+                android:onClick="seleccion"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/ligaduratrompas" />
+
+            <ImageButton
+                android:id="@+id/parche"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00752727"
+                android:onClick="seleccion"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/parche" />
+
+            <ImageButton
+                android:id="@+id/pildora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#009C5F5F"
+                android:onClick="seleccion"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/pildora" />
+
+            <ImageButton
+                android:id="@+id/pastilladiadespues"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00912929"
+                android:onClick="seleccion"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/posday" />
+
+            <ImageButton
+                android:id="@+id/vasectomia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00B35050"
+                android:onClick="seleccion"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/vasectomia" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
